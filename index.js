@@ -30,8 +30,9 @@ app.post("/update", (req, res) => {
 });
 
 app.post("/delete", (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
   const newData = req.body;
-  const allData = data.filter((item) => item.key !== newData.key);
+  const allData = data.filter((item) => item.title !== newData.title);
   fs.writeFile("./data.json", JSON.stringify(allData), (err) => {
     if (err) throw err;
     res.send("Data updated!");
