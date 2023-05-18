@@ -6,6 +6,7 @@ const data = require("./data.json");
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  res.header('Access-Control-Allow-Origin', '*');
   res.json(data);
 });
 
