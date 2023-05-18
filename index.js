@@ -33,6 +33,8 @@ app.post("/update", (req, res) => {
 });
 
 app.post("/delete", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+
   const newData = req.body;
   deleteNumber(newData.title).then(() => {
     res.send("Data Deleted!");
