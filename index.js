@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+const cors = require('cors');
 const app = express();
 const {
   getAllData,
@@ -8,7 +8,7 @@ const {
   deleteNumber,
 } = require("./db-helpers");
 app.use(express.json());
-
+app.use(cors());
 app.get("/", async (req, res) => {
   res.header("Access-Control-Allow-Origin", "*");
   await getAllData().then((data) => res.json(data));
