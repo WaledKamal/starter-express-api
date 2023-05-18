@@ -1,44 +1,43 @@
 const express = require("express");
 const fs = require("fs");
 const app = express();
-
-const data = require("./data.json");
+const {
+  getAllData,
+  newNumber,
+  UpdateNumber,
+  deleteNumber,
+} = require("./db-helpers");
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.header('Access-Control-Allow-Origin', '*');
-  res.json(data);
+app.get("/", async (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  await getAllData().then((data) => res.json(data));
 });
 
 app.post("/add", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+
   const newData = req.body;
-  const allData = [...data, newData];
-  fs.writeFile("./data.json", JSON.stringify(allData), (err) => {
-    if (err) throw err;
+  newNumber(newData).then(() => {
     res.send("Data Added!");
   });
 });
 
 app.post("/update", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
+
   const newData = req.body;
-  const allData = data.filter((item) => item.key !== newData.key);
-  allData.push(newData);
-  fs.writeFile("./data.json", JSON.stringify(allData), (err) => {
-    if (err) throw err;
-    res.send("Data updated!");
+  UpdateNumber(newData).then(() => {
+    res.send("Data Updated!");
   });
 });
 
-app.post("/", (req, res) => {
-  res.header('Access-Control-Allow-Origin', '*');
+app.post("/delete", (req, res) => {
+  res.header("Access-Control-Allow-Origin", "*");
   const newData = req.body;
-  const allData = data.filter((item) => item.title !== newData.title);
-  fs.writeFile("./data.json", JSON.stringify(allData), (err) => {
-    if (err) throw err;
-    res.send("Data updated!");
+  deleteNumber(newData.title).then(() => {
+    res.send("Data Deleted!");
   });
 });
 
- 
-app.listen(process.env.PORT || 3000)
-
+app.listen(process.env.PORT || 3000);
