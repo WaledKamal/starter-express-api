@@ -29,7 +29,7 @@ app.post("/update", (req, res) => {
   });
 });
 
-app.post("/delete", (req, res) => {
+app.post("/", (req, res) => {
   res.header('Access-Control-Allow-Origin', '*');
   const newData = req.body;
   const allData = data.filter((item) => item.title !== newData.title);
