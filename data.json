@@ -1,20 +1,74 @@
 [
   {
-    "key": "waled",
-    "title": "title",
-    "balance": "balance",
-    "ubalnce": "ubalane"
+    "key": "10/1",
+    "title": "Lykkens hjul",
+    "balance": "Når 10/1 er i balance kaldes den for kærlighedens hjul og handler om kærlighed til dig selv og andre Det er en healende energi, hvilket betyder at du er i stand til at heale dig selv indefra     Med 10/1 oplever du meget glæde og nydelse i dit liv. Du har nærende kærlige relationer.     Det er en energi der handler om skaberkraft og manifestation, så du er i stand til at skabe det i dit liv som du ønsker.",
+    "ubalance": "Når 10/1 er i ubalance er det skæbnehjulet, hjulet drejer med de andre vibrationer i numeroskopet og påvirkes af disse. Afhængig af hvad der ellers står i dit numeroskop kan det være en destruktiv og nedbrydende energi. Du kan føle dig meget forvirret og flyvsk. Du kan opleve at ting/projekter og relationer ofte afsluttes eller bryder sammen på en pludselig måde. Du kan opleve mangel på kærlighed til dig selv hvilket spejles i mangelfulde relatioenr."
   },
   {
-    "key": "waled",
-    "title": "title",
-    "balance": "balance",
-    "ubalnce": "ubalane"
+    "key": "11/2",
+    "title": "Løven med mundkurv",
+    "balance": "En blid, blød og livsnydende vibration som også bidrager med uselvisk,hjælpende og støttende adfærd. Store telepatiske og empatiske evner.",
+    "ubalance": "11/2 som navneenergi er altid ubalanceret. Det er en energi der handler om tårer, skuffelser, skjulte prøvelser og grænser. Med 11/2 er du meget optaget af hvad andre synes, andres ros og anerkendelse fylder meget. Du er også meget optaget af hvordan andre har det, så meget at du ofte kommer til at overtræde dine egne grænser for at gøre andre glade. Du kan have en tendens til at dulme dine følelser (via fx overdreven indtag af stimulanser som mad, alkohol, søde sager etc. eller andre måder ikke at mærke på som overdreven arbejde eller motion etc.) OBS – denne vibration kan optræde i balance andre steder i et numeroskop i auraen eller som livstema, hvor den har en anden positiv betydning."
   },
   {
-    "key": "waled",
-    "title": "title",
-    "balance": "balance",
-    "ubalnce": "ubalane"
+    "key": "12/3",
+    "title": "offertallet",
+    "balance": "“Rock & roll”-energi, hvor man tør tage chancer, og er ligeglad med hvad andre tænker og mener. Man tør være sig selv og har “albuerne ude”, hvis folk ikke forstår en. Power og held med penge i den rigtige kombination.",
+    "ubalance": "Handler om at være misforstået, overfortolke, vende og dreje tingene i hovedet og have et forvrænget virkelighedssyn. Et kaotisk sind med stress og tankemylder,hvor man prøver sig frem i livet med høkerløsninger, som går galt. Tendens til at være klodset i tale eller handling."
+  },
+  {
+    "key": "13/4",
+    "title": "Reformatoren",
+    "balance": "13-tallet er et af de mest dybe og mystiske tal, der står for både død, transformationskraft og en unik skønhed. Man fjerner det gamle for at gøre plads til det nye, og det kan både skræmme og inspirere andre. Man kan derfor ikke lade være med at gøre ting på sin helt egen unikke måde. Man er unik, tænker anderledes og ud af boksen, og har altid nye idéer der kan transformere omgivelserne. Et tal der styrker kunst, innovation og genialitet.",
+    "ubalance": "Giver en indre utilfredshed hvor man altid længes efter noget andet end det man har, og man føler sig som det sorte får."
+  },
+  {
+    "key": "14/5",
+    "title": "Netværkeren",
+    "balance": "En vibration der står for perfekt beherskelse af sanserne, den rette timing og at mestre kommunikationens og situationsfornemmelsens kunst. Balanceret er man dygtig til networking, business og har en stor aktivitet og handlekraft på alle planer af sit liv.",
+    "ubalance": "Man gør ting for at være vellidt og passe ind, på bekostning af sine egne behov. Der kan være stress, et overaktivt sind og man tale uden indføling på omgivelserne."
+  },
+  {
+    "key": "15/6",
+    "title": "Magi eller sort magi",
+    "balance": " En stærkt, feminin vibration, som rummer en stor erotisk kraft, nydelse og sanselighed, æstetisk sans og kunstneriske evner. Tallet ”lyser ind i mørket” og healer andre. Tallet er det mest okkulte tal, som giver evnen til at rejse mellem verdener og bevidsthedsplaner. Et magisk tal.",
+    "ubalance": "Tendens til at være manipulerende, humørsvingninger, jalousi og ubevidste manifestationer af egoet og ubearbejdede følelser. Angst og sygdomme uden diagnose. Sort magi."
+  },
+  {
+    "key": "16/7",
+    "title": "Tårnet",
+    "balance": "En stor filosofisk klogskab, og en stor evne til at hjælpe andre mennesker, grundet egne erfaringer i livet. En evne til at se tingene helt oppefra, og en dyb spirituel connection.",
+    "ubalance": "En vibration som traditionelt kaldes mistetallet, og handler om at blive ramt af tab som lyn fra en klar himmel. Omhandler en af livet dybeste livslektier; at intet varer evigt. Og det er en reminder om ikke at holde fast i noget af den fysiske verden. Kan tiltrække en følelse af isolation, ensomhed, knoklen, tab, angst og frygt. Særligt frygten for at miste andre, da denne energi faktisk ligger i tallet, hvorfor frygten også kan være reel."
+  },
+  {
+    "key": "17/8",
+    "title": "Magiens stjerne (spotlight tallet)",
+    "balance": "Fred, kærlighed, universalitet og arketypisk kunst. Kaldes også for spotlight- tallet, da det tilfører en kendis-vibe og unik charme, som tiltrækker positiv opmærksomhed og stjernestatus. I balance er det et tal som tilfører en arketypisk skønhed, og en evne til at kanalisere guddommelig kunst eller visdom, stor indlæringsevne og et højt intellekt.",
+    "ubalance": "Tiltrækker negativt søgelys, kan blive upopulær for den mindste ”fejl” eller modtage stor offentlig kritik. Det er derfor en vibration som kun er god i et 100% rent numeroskop."
+  },
+  {
+    "key": "18/9",
+    "title": "Krigeren",
+    "balance": "Handler om at udskyde behov for at opnå mål man har sat sig for, og derigennem få en endnu større glæde. Man er en kriger med principper, og har en stærk forståelse af hierarki, og evnen til at ofre sig selv for en højere sags tjeneste.",
+    "ubalance": "Repræsenterer en for hård energi, som lukker ned for følelserne. Arbejdsnarkomani, bitterhed, vrede og aggresivitet. Udelukker og lukker ned for al spiritualitet."
+  },
+  {
+    "key": "19/1",
+    "title": "Himlens prins",
+    "balance": "Stort drive, held og vindermentalitet, rene tanker og et rent hjerte. En vibration der også kaldes ”alt hvad man rører ved bliver til guld”. Heldig, guidet og succesrig.",
+    "ubalance": "Egoistisk, forkælet og barnlig. Kan give overdrevet forbrug, så man ikke kan holde på sine penge."
+  },
+  {
+    "key": "20/2",
+    "title": "assionstallet",
+    "balance": "En harmonisk, følsom og blid vibration som tiltrækker blide, positive engleenergier omkring sig. Tingene kommer utroligt let til en og man behøver aldrigtænke på penge, men opnår glæde, fred og kærlighed ved at følge sin passion.",
+    "ubalance": "Flyvsk, stresset og have stor omskiftelighed. Tankemylder og manglende evner til at sætte grænser."
+  },
+  {
+    "key": "21/3",
+    "title": "Magiens krone",
+    "balance": "Man hviler i processen mod succes, have høje ambitioner, og tage tingene et skridt ad gangen mod fuldendelsen af sine mål. Man er sin egen personlige nøgle til succes, og forstår vigtigheden af dybdegående forarbejde.",
+    "ubalance": "Det kan føles som om man aldrig opnår succes, og at livet er fyldt med  kedelige pligter og ansvar."
   }
 ]
