@@ -27,6 +27,9 @@ module.exports.newNumber = async (data) => {
 };
 
 module.exports.UpdateNumber = async (data) => {
+
+  console.log(data)
+  
   await db.collection("numbers").updateOne(
     { _id: data.id },
     {
