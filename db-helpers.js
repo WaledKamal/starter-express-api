@@ -28,7 +28,7 @@ module.exports.newNumber = async (data) => {
 
 module.exports.UpdateNumber = async (data) => {
   await db.collection("numbers").updateOne(
-    { title: data.title },
+    { _id: data.id },
     {
       $set: data,
     }
